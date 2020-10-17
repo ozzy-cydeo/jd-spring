@@ -1,5 +1,5 @@
 package Implementation;
 
-public interface Mentor {
+public interface MentorImpl {
     void createAccount();
 }

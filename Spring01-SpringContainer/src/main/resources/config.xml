@@ -6,11 +6,14 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="fullTimeMentor" class="com.cybertek.service.FullTimeMentor"></bean>
+    <!--<bean id="fullTimeMentor" class="com.cybertek.service.FullTimeMentor"></bean>
+    -->
 
 
 
     <bean id="partTimeMentor" class="com.cybertek.service.PartTimeMentor"></bean>
+
+    <!--<alias name="partTimeMentor" alias="pt"/>-->
 
 
 

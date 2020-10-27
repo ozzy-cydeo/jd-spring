@@ -1,4 +1,4 @@
-package com.cybertek;
+package com.cybertek.interfaces;
 
 public interface Course {
     int getTeachingHours();
